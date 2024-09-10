@@ -198,6 +198,7 @@ nav {
   font-size: 2rem;
   height: 70px;
   font-style: italic;
+  align-items: center;
 
 }
 
@@ -219,10 +220,19 @@ nav {
 
 .footer-content {
   font-style: normal;
-  font
 
 }
 
 .footer-copyright {
   margin: 10px;
+}
+
+.last-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #464343;
+  line-height: 1.7;
+  border-top: 2rem;
+
 }
