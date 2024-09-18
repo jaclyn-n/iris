@@ -15,6 +15,7 @@
 }
 
 .overlay {
+  
   height: 100%;
   width: 100%;
   display: flex;
@@ -197,8 +198,9 @@ nav {
   background-color: #2e2e2e;
   font-size: 2rem;
   height: 70px;
-  font-style: italic;
+  font-style: oblique;
   align-items: center;
+  color:thistle;
 
 }
 
@@ -206,15 +208,15 @@ nav {
 .footer-item {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  row-gap: 10px;
+  justify-content: space-evenly;
   background-color: #464343;
-  height: 45vh;
+  height: 50vh;
+  font-style: normal;
 }
 
 .footer-section {
   font-size: 1.3rem;
-  font-style: oblique;
+  font-style: normal;
   color: aliceblue;
 }
 
